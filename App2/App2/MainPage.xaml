@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage">
+
+    <StackLayout>
+        <Button Clicked="Button_Clicked1" Text="Push Async!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Button Clicked="Button_Clicked2" Text="Push Modal Async!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
